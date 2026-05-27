@@ -11,6 +11,13 @@ The project is designed to support scalable and incremental monthly data process
 
 ---
 
+# Dataset Information
+
+The project processes monthly ecommerce datasets stored as CSV files in Azure Data Lake Storage (ADLS).
+
+The datasets are ingested incrementally using Databricks Autoloader and processed through the Bronze → Silver → Gold layers.
+
+---
 # Project Objectives
 
 The main objectives of this project are:
