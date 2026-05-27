@@ -29,7 +29,9 @@ The main objectives of this project are:
 
 This project follows the Medallion Architecture approach:
 
-![Architecture](screenshot results/medallion architecture.png)
+<p align="center">
+  <img src="screenshot results/medallion architecture.png" width="900"/>
+</p>
 
 ## Bronze Layer
 
@@ -212,24 +214,9 @@ The project supports incremental monthly processing.
 
 # Project Architecture
 
-```text
-Azure Data Lake Storage (ADLS)
-                │
-                ▼
-        Bronze Layer
-     (Raw Monthly Data)
-                │
-                ▼
-        Silver Layer
-   (Cleaned & Standardized Data)
-                │
-                ▼
-          Gold Layer
-     (BI-Ready Business Data)
-                │
-                ▼
-      Analytics & Reporting
-```
+<p align="center">
+  <img src="architecture/project_architecture.png" width="900"/>
+</p>
 
 ---
 
