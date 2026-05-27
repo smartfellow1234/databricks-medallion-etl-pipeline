@@ -29,11 +29,7 @@ The main objectives of this project are:
 
 This project follows the Medallion Architecture approach:
 
-```text
-Bronze Layer → Silver Layer → Gold Layer
-```
-
----
+![Architecture](screenshot results/medallion architecture.png)
 
 ## Bronze Layer
 
